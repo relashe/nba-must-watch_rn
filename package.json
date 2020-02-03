@@ -1,0 +1,33 @@
+{
+  "name": "nba-must-watch-rn",
+  "version": "1.0.0",
+  "description": "NBA Must watch app in built in React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relashe/nba-must-watch_rn.git"
+  },
+  "author": "Relashe Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relashe/nba-must-watch_rn/issues"
+  },
+  "homepage": "https://github.com/relashe/nba-must-watch_rn#readme",
+  "dependencies": {
+    "expo": "^36.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-gesture-handler": "^1.5.5",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-web": "^0.12.0",
+    "react-navigation": "^4.1.0",
+    "react-navigation-stack": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.0.0"
+  }
+}
