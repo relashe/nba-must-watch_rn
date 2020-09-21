@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-const GamePreview = ({teamHome, teamAway, time, location, votes}) => {
+const GamePreview = ({teamHome = "Team A", teamAway = "Team B", time = "12:00pm", location = "Staples Centre", votes = 11340}) => {
     return (
         <View
             style={{
@@ -33,14 +33,14 @@ const GamePreview = ({teamHome, teamAway, time, location, votes}) => {
                 }}
                 >
                 <View>
-                    <Text>Team A</Text>
+                    <Text>{teamAway}</Text>
                 </View>
                 <View>
-                    <Text>12.30AM</Text>
-                    <Text>Staples Centre</Text>
+                    <Text>{time}</Text>
+                    <Text>{location}</Text>
                 </View>
                 <View>
-                    <Text>Team B</Text>
+                    <Text>{teamHome}</Text>
                 </View>
             </View>
             <View 

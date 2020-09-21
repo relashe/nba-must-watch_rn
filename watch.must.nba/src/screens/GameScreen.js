@@ -1,11 +1,11 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, FlatList } from 'react-native';
 
 const GameScreen = () => {
 
     return (
         <View>
-            This is the game page
+            <FlatList></FlatList>
         </View>
     );
 };

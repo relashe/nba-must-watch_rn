@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import GamePreview from '../GamePreview/GamePreview';
+import GamesBlock from '../components/GamesBlock/GamesBlock';
 
 
 const GamesBlock = ({title, games}) => {
